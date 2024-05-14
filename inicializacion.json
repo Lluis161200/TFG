@@ -1,0 +1,19 @@
+{
+  "protein_accession_list": {
+    "Escherichia phage Lambda": ["ALA45761.1", "ABD60142.1"],
+    "Salmonella phage P22": ["AAF75024.1", "AAM81424.1"]
+  },
+  "taxonomic_id": "txid2",
+  "blast_parameters": {
+    "e_value": 1e-10,
+    "coverage": 0.75,
+    "bd":"nr"
+  },
+
+  "meme_parameters": {
+    "palindrome": true,
+    "minW": 6,
+    "maxW": 12,
+    "ANR": true
+  }
+}
