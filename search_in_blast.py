@@ -44,6 +44,7 @@ def search_blast(id_proteina, db, tax_id, cutoff, nhits, request_limit, min_cove
 
             print("Busqueda finalizada")
             blast_records = list(NCBIXML.parse(result_handle))
+            print(blast_records)
             break
 
         except:
