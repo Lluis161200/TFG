@@ -11,9 +11,10 @@
   },
 
   "meme_parameters": {
-    "palindrome": true,
-    "minW": 6,
-    "maxW": 12,
+    "palindrome-(-PAL)": true,
+    "minW": 10,
+    "maxW": 26,
     "ANR": true
+
   }
 }

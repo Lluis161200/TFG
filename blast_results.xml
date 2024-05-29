@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_739009</BlastOutput_query-ID>
+  <BlastOutput_query-def>ALA45761.1 repressor protein C1 [Escherichia phage Lambda]</BlastOutput_query-def>
+  <BlastOutput_query-len>81</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_739009</Iteration_query-ID>
+  <Iteration_query-def>ALA45761.1 repressor protein C1 [Escherichia phage Lambda]</Iteration_query-def>
+  <Iteration_query-len>81</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_343124322.1|</Hit_id>
+  <Hit_def>MULTISPECIES: lambda phage CII family protein [Xanthomonas] &gt;tpg|DAM69257.1| MAG TPA: CII protein [Caudoviricetes sp.] &gt;tpg|DAP48682.1| MAG TPA: CII protein [Caudoviricetes sp.] &gt;tpg|DAR51809.1| MAG TPA: CII protein [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>WP_343124322</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>6.31991e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_112046678.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;emb|SQQ10645.1| Regulatory protein CII [Escherichia coli] &gt;tpg|HCO8567169.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_112046678</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>1.13373e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_209392414.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|MBP0550541.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_209392414</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>1.18463e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_032267558.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|UMU93804.1| lambda phage CII protein family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_032267558</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.29679e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_234627584.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|UGW74458.1| lambda phage CII family protein [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>WP_234627584</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>1.29946e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_343124066.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Xanthomonas oryzae]</Hit_def>
+  <Hit_accession>WP_343124066</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.45322e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_251292610.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|EGD6068471.1| hypothetical protein [Escherichia coli] &gt;gb|EHY3226676.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HAM4079898.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_251292610</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.49181e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_000251069.1|</Hit_id>
+  <Hit_def>MULTISPECIES: lambda phage CII family protein [Bacteria] &gt;ref|NP_040630.1| CII-like transcriptional activator [Escherichia phage Lambda] &gt;ref|NP_308303.1| phage regulatory protein CII [Escherichia coli O157:H7 str. Sakai] &gt;ref|YP_009147496.1| CII-like transcriptional activator [Enterobacteria phage SfI] &gt;ref|YP_009909949.1| CII-like transcriptional activator [Escherichia phage ev099] &gt;sp|P03042.1| RecName: Full=Transcriptional activator II [Escherichia phage Lambda] &gt;pdb|1XWR|A Chain A, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1XWR|B Chain B, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1XWR|C Chain C, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1XWR|D Chain D, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1ZPQ|A Chain A, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1ZPQ|B Chain B, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1ZPQ|C Chain C, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|1ZPQ|D Chain D, Regulatory protein CII [Lambdavirus lambda] &gt;pdb|8IGR|A Chain A, Transcriptional activator II [Opitutus terrae] &gt;pdb|8IGR|B Chain B, Transcriptional activator II [Opitutus terrae] &gt;pdb|8IGR|C Chain C, Transcriptional activator II [Opitutus terrae] &gt;pdb|8IGR|D Chain D, Transcriptional activator II [Opitutus terrae] &gt;gb|ABO40675.1| transcriptional activator [Enterobacteria phage mEp332] &gt;gb|EAA8235202.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Concord] &gt;gb|EAO1411661.1| hypothetical protein [Salmonella enterica] &gt;gb|EBM7483220.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Muenchen] &gt;gb|EBS0181367.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Orion] &gt;gb|EBS0234459.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Richmond] &gt;gb|EBV8430859.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Anatum] &gt;gb|EBW8675343.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka] &gt;gb|ECI2436175.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Derby] &gt;gb|ECI2474172.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Newport] &gt;gb|ECI2483512.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Enteritidis] &gt;gb|ECK8919591.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Infantis] &gt;gb|ECX7174171.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Berta] &gt;gb|EDB6902017.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Schwarzengrund] &gt;gb|EDB6910444.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Brandenburg] &gt;gb|EDD0332897.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Corvallis] &gt;gb|EDD0360268.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Give] &gt;gb|EDI2306182.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Senftenberg] &gt;gb|EDI2315904.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EDN4705687.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Saintpaul] &gt;gb|EDP1196312.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Reading] &gt;gb|EDP2105334.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Oranienburg] &gt;gb|EDR0273236.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Braenderup] &gt;gb|EDR6248152.1| hypothetical protein [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EDR9404114.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Inverness] &gt;gb|EDS5872508.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mississippi] &gt;gb|EDT3231533.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Hadar] &gt;gb|EDU4456571.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Sandiego] &gt;gb|EEA0533351.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Montevideo] &gt;gb|EET3382229.1| hypothetical protein [Escherichia coli O111] &gt;gb|EET3529147.1| hypothetical protein [Escherichia coli O157:NM] &gt;gb|EEZ5705532.1| hypothetical protein [Escherichia coli O25] &gt;gb|EEZ5736199.1| hypothetical protein [Escherichia coli O6] &gt;gb|EEZ5973174.1| hypothetical protein [Escherichia coli O2] &gt;gb|EEZ8817817.1| hypothetical protein [Escherichia coli O78] &gt;gb|EEZ9844639.1| hypothetical protein [Escherichia coli O119] &gt;gb|EFA4282152.1| hypothetical protein [Escherichia coli O167:H9] &gt;gb|EFB4087106.1| hypothetical protein [Escherichia coli O33] &gt;gb|EFE2142470.1| hypothetical protein [Escherichia coli O8:H19] &gt;gb|EFN6836458.1| hypothetical protein [Escherichia coli H4] &gt;gb|EFN8622615.1| hypothetical protein [Escherichia coli O51] &gt;gb|EFO2085981.1| hypothetical protein [Escherichia coli O109] &gt;gb|EFO2128099.1| hypothetical protein [Escherichia coli O100] &gt;gb|EGF6213191.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Chester] &gt;gb|EGI5031388.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Bareilly] &gt;gb|EGI6603904.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Paratyphi A] &gt;gb|EGW3899785.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Bovismorbificans] &gt;gb|EHY1705878.1| lambda phage CII family protein [Escherichia coli O21] &gt;gb|EIF1380815.1| lambda phage CII family protein [Campylobacter coli] &gt;gb|EIH0661927.1| lambda phage CII family protein [Escherichia coli O158] &gt;gb|EIH0690150.1| lambda phage CII family protein [Escherichia coli O11] &gt;gb|EIH1068169.1| lambda phage CII family protein [Escherichia coli O7:H18] &gt;gb|EIH4343487.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Poona] &gt;gb|EII6189290.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Kentucky] &gt;gb|EIJ0219788.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Soerenga] &gt;gb|EIJ4822313.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Dublin] &gt;gb|EIK2402234.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Manhattan] &gt;gb|EJY0126613.1| lambda phage CII family protein [Escherichia coli O116] &gt;gb|EJY0205094.1| lambda phage CII family protein [Escherichia coli O113] &gt;gb|EKK2294154.1| lambda phage CII family protein [Escherichia coli O8] &gt;gb|EKK9166815.1| lambda phage CII family protein [Escherichia coli O103] &gt;gb|ELJ1189687.1| lambda phage CII family protein [Escherichia coli O168] &gt;gb|EMZ2654118.1| lambda phage CII family protein [Escherichia coli O143:H4] &gt;gb|ENA0270490.1| lambda phage CII family protein [Escherichia coli O161:H4] &gt;gb|EZC11010.1| regulatory protein [Escherichia coli O157:H7 str. K2845] &gt;gb|MBK1695543.1| hypothetical protein [Chromatium weissei] &gt;gb|MCA6458963.1| lambda phage CII family protein [Chitinophagaceae bacterium] &gt;gb|MCI5142687.1| hypothetical protein [Candidatus Electrothrix sp. ATG1] &gt;gb|MCI5146171.1| hypothetical protein [Candidatus Electrothrix sp. AR3] &gt;gb|MCK1248918.1| lambda phage CII family protein [Streptococcus uberis] &gt;gb|MCW4574039.1| lambda phage CII family protein [Venenivibrio stagnispumantis] &gt;gb|MEE6852362.1| lambda phage CII family protein [Escherichia coli :H21] &gt;gb|MEE6966997.1| lambda phage CII family protein [Escherichia coli O156:H28] &gt;gb|MEE7108516.1| lambda phage CII family protein [Escherichia coli O134:H31] &gt;gb|MEE7253527.1| lambda phage CII family protein [Escherichia coli O24:H4] &gt;gb|OLG53924.1| regulatory protein [Xanthomonas oryzae pv. oryzae] &gt;gb|PUE90233.1| hypothetical protein C7T79_20580 [Xanthomonas oryzae pv. oryzicola] &gt;dbj|BDD46525.1| hypothetical protein 3 [Enterobacteriaceae bacterium] &gt;tpg|HAO9858618.1| hypothetical protein [Escherichia coli O25b:H4-ST131] &gt;tpg|HBR8101636.1| lambda phage CII family protein [Klebsiella variicola subsp. variicola] &gt;tpg|HBY0280085.1| hypothetical protein [Klebsiella pneumoniae subsp. pneumoniae] &gt;tpg|HCC7245592.1| lambda phage CII family protein [Escherichia coli O141:H32] &gt;tpg|HDQ6480276.1| lambda phage CII family protein [Escherichia coli O87:H16] &gt;tpg|HDQ6702963.1| lambda phage CII family protein [Escherichia coli Ou:H26] &gt;tpg|HDR1716834.1| lambda phage CII family protein [Pasteurella multocida] &gt;tpg|HDR6113403.1| lambda phage CII family protein [Escherichia coli O157:H7 str. ZAP430] &gt;tpg|HDR8911448.1| lambda phage CII family protein [Burkholderia multivorans] &gt;tpg|HEG1418533.1| lambda phage CII family protein [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_000251069</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.52492e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_069678167.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Streptococcus pneumoniae] &gt;gb|OEH40452.1| hypothetical protein A4251_11055, partial [Streptococcus pneumoniae]</Hit_def>
+  <Hit_accession>WP_069678167</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.54262e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HBW8967249.1|</Hit_id>
+  <Hit_def>hypothetical protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>HBW8967249</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.55966e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_124064408.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Escherichia coli] &gt;gb|EAK8505677.1| hypothetical protein [Listeria monocytogenes] &gt;gb|EIC1386212.1| lambda phage CII family protein [Escherichia coli] &gt;gb|EKK9570686.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HBN1390517.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HBN1417554.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_124064408</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.58302e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>tpg|HBA8400267.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HBA8400267</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.62863e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_064485253.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Escherichia coli] &gt;gb|EGJ4924847.1| hypothetical protein [Escherichia coli] &gt;tpg|HBW9185008.1| hypothetical protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_064485253</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.64369e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_284181187.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|WIC01078.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HAW1863525.1| hypothetical protein [Escherichia coli] &gt;tpg|HAW2201585.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_284181187</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.64674e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HBW9027022.1|</Hit_id>
+  <Hit_def>hypothetical protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>HBW9027022</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.67428e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EEV9163854.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gb|EFE8296728.1| hypothetical protein [Escherichia coli] &gt;gb|EFF9477638.1| hypothetical protein [Escherichia coli] &gt;gb|EGE4033202.1| hypothetical protein [Escherichia coli] &gt;gb|EGM8144191.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EEV9163854</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.69756e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_134638234.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Pseudomonas aeruginosa] &gt;gb|EFN2299032.1| hypothetical protein [Escherichia coli] &gt;gb|MDD8553294.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_134638234</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.71343e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_061103596.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|KXI03109.1| hypothetical protein AXE67_23980 [Escherichia coli] &gt;gb|MBB0399880.1| hypothetical protein [Escherichia coli] &gt;gb|MDA6210078.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_061103596</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.7163e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_124037006.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|EER7864685.1| hypothetical protein [Escherichia coli] &gt;gb|MCQ1734220.1| lambda phage CII family protein [Escherichia coli] &gt;gb|MDF8831974.1| lambda phage CII family protein [Escherichia coli] &gt;gb|MQL26497.1| hypothetical protein [Escherichia coli] &gt;tpg|HDM1952792.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_124037006</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.72067e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EEY6132762.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;tpg|HAW7389883.1| hypothetical protein [Escherichia coli] &gt;tpg|HAW7540383.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EEY6132762</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.72145e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|EER0450135.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EER0450135</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.77828e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_058714870.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Enterobacter hormaechei] &gt;gb|KTQ65979.1| hypothetical protein NS19R_22090 [Enterobacter hormaechei subsp. xiangfangensis]</Hit_def>
+  <Hit_accession>WP_058714870</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.82177e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>tpg|HCL4036298.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HCL4036298</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.8328e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|EER2143577.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gb|EER6583476.1| hypothetical protein [Escherichia coli] &gt;gb|EER9277198.1| hypothetical protein [Escherichia coli] &gt;gb|EEV9244293.1| hypothetical protein [Escherichia coli] &gt;gb|EHX2066086.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EER2143577</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.88909e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|EIM8053004.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;tpg|HAH8764971.1| hypothetical protein [Escherichia coli] &gt;tpg|HAL2047068.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EIM8053004</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>1.89132e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_305231902.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein, partial [Klebsiella pneumoniae] &gt;gb|EAD2677356.1| hypothetical protein [Listeria monocytogenes] &gt;gb|EAD2692942.1| hypothetical protein [Listeria monocytogenes] &gt;gb|EDN0934035.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Derby] &gt;gb|MDP1315033.1| lambda phage CII family protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_305231902</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.92556e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>tpg|HBW9136208.1|</Hit_id>
+  <Hit_def>hypothetical protein [Klebsiella pneumoniae] &gt;tpg|HBW9152285.1| hypothetical protein [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>HBW9136208</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.92625e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|OSL75434.1|</Hit_id>
+  <Hit_def>regulatory protein CII [Escherichia coli TA054] &gt;gb|OSL86083.1| regulatory protein CII [Escherichia coli TA249] &gt;tpg|DAH36166.1| MAG TPA: CII protein [Bacteriophage sp.] &gt;tpg|DAM59297.1| MAG TPA: CII protein [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>OSL75434</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>2.10821e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_033553742.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|EFO2137012.1| hypothetical protein [Escherichia coli O8] &gt;gb|EGF2690035.1| hypothetical protein [Shigella sonnei] &gt;gb|EFA7678511.1| hypothetical protein [Escherichia coli] &gt;gb|EFC4548914.1| hypothetical protein [Escherichia coli] &gt;gb|EFD4930975.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_033553742</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.23939e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>tpg|HAI2424767.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;tpg|HBC3784654.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HAI2424767</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.5246e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>tpg|HAU9271879.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;tpg|HAU9372817.1| hypothetical protein [Escherichia coli] &gt;tpg|HAU9724395.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HAU9271879</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.69889e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAILEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLA+LEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_114569530.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|AXG15661.1| hypothetical protein C6669_00660 [Escherichia coli] &gt;gb|EFD4936759.1| hypothetical protein [Escherichia coli] &gt;gb|EHI0807048.1| hypothetical protein [Escherichia coli] &gt;gb|EHY2719002.1| lambda phage CII family protein [Escherichia coli] &gt;gb|EHY3123836.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_114569530</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.69889e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGIVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWG+VDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ECX9604090.1|</Hit_id>
+  <Hit_def>hypothetical protein [Salmonella enterica] &gt;gb|EEU9242078.1| hypothetical protein [Escherichia coli] &gt;gb|EFE9357295.1| hypothetical protein [Escherichia coli] &gt;gb|EFO3579847.1| hypothetical protein [Escherichia coli] &gt;gb|EGA5948481.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>ECX9604090</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.32489e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_063266251.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|EJC3146658.1| lambda phage CII family protein [Escherichia coli] &gt;gb|EKE4299557.1| lambda phage CII family protein [Escherichia coli] &gt;gb|KZF38224.1| hypothetical protein AZE29_05525 [Escherichia coli APEC O2] &gt;tpg|HDV1140085.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HDV1144799.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_063266251</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.3616e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|EKU0360895.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;tpg|HAX9994430.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EKU0360895</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.45168e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_338315756.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;tpg|HAX4953753.1| hypothetical protein [Escherichia coli] &gt;tpg|HAX4958561.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_338315756</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.59049e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|EEW3516956.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EEW3516956</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.75168e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_178943746.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|QLF47417.1| hypothetical protein HK408_16370 [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_178943746</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.75168e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|EIF0985338.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EIF0985338</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>3.87194e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>emb|STI86868.1|</Hit_id>
+  <Hit_def>Regulatory protein CII [Escherichia coli]</Hit_def>
+  <Hit_accession>STI86868</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>3.89477e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_137549634.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_137549634</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.91101e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|EIV8226874.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EIV8226874</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.91101e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EER4516075.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli] &gt;gb|EGJ5964051.1| hypothetical protein [Escherichia coli] &gt;gb|EHA2329332.1| hypothetical protein [Escherichia coli] &gt;gb|EHJ7871523.1| lambda phage CII family protein [Escherichia coli] &gt;gb|EHO1150212.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EER4516075</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>3.9201e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|EGY2199865.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EGY2199865</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>3.97219e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|MDA6810256.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>MDA6810256</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>3.99673e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>tpg|HEI2824380.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>HEI2824380</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.00713e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLIAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSML+AVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_181679705.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_181679705</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.18702e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAESVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAE+VGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MHP12962.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>MHP12962</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.18702e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVSAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQV+AILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|MBA8217882.1|</Hit_id>
+  <Hit_def>lambda phage CII family protein [Escherichia coli] &gt;gb|TYE56612.1| hypothetical protein DJ517_00825 [Escherichia coli] &gt;tpg|HDW3686436.1| lambda phage CII family protein [Escherichia coli] &gt;tpg|HDW3929291.1| lambda phage CII family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>MBA8217882</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.18702e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMSRLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDM+RLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_000251073.1|</Hit_id>
+  <Hit_def>MULTISPECIES: lambda phage CII family protein [Enterobacteriaceae] &gt;ref|YP_007112324.1| CII-like transcriptional activator [Escherichia phage HK633] &gt;sp|P03043.1| RecName: Full=Regulatory protein CII [Phage 434] &gt;gb|EAA6824022.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Corvallis] &gt;gb|EBB8551550.1| hypothetical protein [Salmonella enterica] &gt;gb|EBW9613680.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka] &gt;gb|ECF1051603.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Montevideo] &gt;gb|EDH9099049.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Apeyeme] &gt;gb|EEC7213411.1| hypothetical protein [Escherichia coli O103] &gt;gb|EEJ3405597.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Chailey] &gt;gb|EEV2765547.1| hypothetical protein [Escherichia coli O145] &gt;gb|EEZ5728412.1| hypothetical protein [Escherichia coli O25] &gt;gb|EEZ6491843.1| hypothetical protein [Escherichia coli O156] &gt;gb|EEZ9678178.1| hypothetical protein [Escherichia coli O55] &gt;gb|EFA4195366.1| hypothetical protein [Escherichia coli O96] &gt;gb|EFA4258192.1| hypothetical protein [Escherichia coli O136:H26] &gt;gb|EFA4268334.1| hypothetical protein [Escherichia coli O145:H25] &gt;gb|EFA8291770.1| hypothetical protein [Escherichia coli O157] &gt;gb|EFN8571556.1| hypothetical protein [Escherichia coli O85:H32] &gt;gb|EFO2084477.1| hypothetical protein [Escherichia coli O109] &gt;gb|EFV8236993.1| hypothetical protein [Shigella sonnei] &gt;gb|EHW0743170.1| lambda phage CII family protein [Escherichia coli O48] &gt;gb|EJH5208489.1| lambda phage CII family protein [Escherichia coli O145:H28] &gt;gb|ELP2957991.1| lambda phage CII family protein [Escherichia coli O83] &gt;gb|MEE7003435.1| lambda phage CII family protein [Escherichia coli :H7] &gt;gb|MEE7016613.1| lambda phage CII family protein [Escherichia coli O146:H21] &gt;gb|MEE7061802.1| lambda phage CII family protein [Escherichia coli O66:H5] &gt;gb|MEE7075283.1| lambda phage CII family protein [Escherichia coli OX25:H6] &gt;gb|MEE7146112.1| lambda phage CII family protein [Escherichia coli O8:H19] &gt;gb|MEE7300519.1| lambda phage CII family protein [Escherichia coli O71:H6] &gt;gb|MEE7392918.1| lambda phage CII family protein [Escherichia coli O25:H4] &gt;gb|URC09316.1| activator protein cII [Escherichia phage vB_EcoP-683R2] &gt;emb|CAH1189536.1| C1 [Escherichia phage Gally] &gt;tpg|DAV51551.1| MAG TPA: CII protein [Caudoviricetes sp.] &gt;tpg|HAX0190136.1| hypothetical protein [Escherichia coli JJ2193] &gt;tpg|HBM0002889.1| lambda phage CII family protein [Salmonella enterica subsp. enterica serovar Gozo] &gt;tpg|HDQ6502589.1| lambda phage CII family protein [Escherichia coli Ou:H6] &gt;tpg|HDR9925202.1| lambda phage CII family protein [Escherichia coli 2254-75 (11a)]</Hit_def>
+  <Hit_accession>WP_000251073</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>4.18702e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF</Hsp_qseq>
+      <Hsp_hseq>LLNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVASILTNKKRPAATERSEQIQMEF</Hsp_hseq>
+      <Hsp_midline>+LNKIAMLGTEKTAEAVGVDKSQISRWKRDWIPKFSMLLAVLEWGVVDDDMARLARQVA+ILTNKKRPAATERSEQIQMEF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>577356596</Statistics_db-num>
+      <Statistics_db-len>280756686979</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

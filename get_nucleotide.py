@@ -60,9 +60,11 @@ def process_gene_records(p_scores, records, prot_id):
                             if max_p_record < p_scores[key]:
                                 max_p_record = p_scores[key]
                                 # create the record
+                                print()
                                 cds_rec = {'acc': cds_acc, 'start': cds.attributes['start'],
                                            'stop': cds.attributes['stop'], 'strand': cds.attributes['strand'],
                                            'p_score': p_scores[key]}
+                                print(cds_rec)
 
     if max_p_record != 0:
         return cds_rec
@@ -70,30 +72,8 @@ def process_gene_records(p_scores, records, prot_id):
         print("\t|~> No gene records found for " + prot_id)
         return None
 
-def get_nuc_seq(nuc_rec_in, start_adj=250, stop_adj=3):
-    '''
-    Returns the nucleotide sequence of nucelotide record.
 
-    Parameters
-    ----------
-    nuc_rec_in : list[(string, string, string)]
-        First element in the tuple is the input protein record the hit came from.
-        The second element is the protein accession from the BLAST search of the input protein.
-        The third element is the nucleotide record for the hit.
-    start_adj : int, optional
-        The number of nucleotides to go upstream of the start site. The default is 250.
-    stop_adj : int, optional
-        The number of nucelotides to go downstream of the start site. The default is 3.
-    isolate_promoters : bool, optional
-        Set whether to return promoter sequences or the raw sequence. The default is False.
-
-    Returns
-    -------
-    SeqRecord
-        Holds the promoter or nucleotide sequence.
-
-    '''
-
+def get_nuc_seq(nuc_rec_in):
     nuc_rec = nuc_rec_in[2]
 
     if nuc_rec is None:
@@ -104,41 +84,64 @@ def get_nuc_seq(nuc_rec_in, start_adj=250, stop_adj=3):
 
     print("\t|~> Adjusting start and stop positions")
 
-    if nuc_rec['strand'] == '+':
-        s_start = int(nuc_rec['start']) - start_adj
-        s_stop = int(nuc_rec['start']) + stop_adj
+    # Initialize variables
+    acc = nuc_rec['acc']
+    strand = nuc_rec['strand']
+    start = int(nuc_rec['start'])
+    stop = int(nuc_rec['stop'])
+
+    # Get the previous gene information
+    try:
+        handle = Entrez.elink(dbfrom="nuccore", id=acc, linkname="nuccore_nuccore")
+        record = Entrez.read(handle)
+        handle.close()
+
+        if not record[0]["LinkSetDb"]:
+            print("\t|~> No linked records found")
+            return None
+
+        prev_gene_id = record[0]["LinkSetDb"][0]["Link"][0]["Id"]
+
+        handle_summary = Entrez.esummary(db="nuccore", id=prev_gene_id)
+        summary = Entrez.read(handle_summary)
+        handle_summary.close()
+
+        prev_start = int(summary[0]['Start'])
+        prev_stop = int(summary[0]['Stop'])
+
+    except Exception as e:
+        print(f"\t|~> Error fetching previous gene: {e}")
+        return None
+
+    # Adjust the start and stop positions based on the strand
+    if strand == '+':
+        s_start = prev_stop + 1
+        s_stop = start - 1
         s_strand = 1
     else:
-        s_stop = int(nuc_rec['stop']) + start_adj
-        s_start = int(nuc_rec['stop']) - stop_adj
+        s_start = stop + 1
+        s_stop = prev_start - 1
         s_strand = 2
 
-
-
     print("\t|~> Getting FASTA record")
-    # Fetch the requested nucleotide sequence and return without any
-    # modification.
 
     for i in range(REQUEST_LIMIT):
-
         try:
-
-            handle = Entrez.efetch(db="nuccore", id=nuc_rec['acc'], strand=s_strand,
-                                       seq_start=s_start, seq_stop=s_stop,
-                                       rettype='fasta', retmode="txt")
-
+            handle = Entrez.efetch(db="nuccore", id=acc, strand=s_strand,
+                                   seq_start=s_start, seq_stop=s_stop,
+                                   rettype='fasta', retmode="text")
             time.sleep(SLEEP_TIME)
             break
-
-        except:
-
-            print("\t\tNCBI exception raised on attempt " + str(i) + "\n\t\treattempting now...")
+        except Exception as e:
+            print(f"\t\tNCBI exception raised on attempt {i}\n\t\treattempting now... {e}")
 
             if i == (REQUEST_LIMIT - 1):
                 print("\t\tCould not download record after " + str(REQUEST_LIMIT) + " attempts")
+                return None
 
-    print("\t|~> Returnig sequence")
+    print("\t|~> Returning sequence")
     return SeqIO.read(handle, "fasta")
+
 
 
 
